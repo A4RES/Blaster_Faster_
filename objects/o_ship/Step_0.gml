@@ -28,5 +28,5 @@ if(thrust) {
 // when pressing left click, the player ship will shoot a laser 
 var fire_lazer = mouse_check_button_pressed(mb_left);
 if(fire_lazer){
-	create_right_lazer();
+	create_lazer();
 }
