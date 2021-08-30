@@ -1,4 +1,4 @@
-/// @description controls, thrust and lasers  
+ // @description controls, thrust and lasers  
 // sets sprite to face mouse 
 var mouse_directiton = point_direction(x, y, mouse_x, mouse_y);
 image_angle = mouse_directiton;

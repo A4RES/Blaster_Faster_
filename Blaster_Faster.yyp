@@ -12,6 +12,7 @@
     {"id":{"name":"s_stars_close","path":"sprites/s_stars_close/s_stars_close.yy",},"order":17,},
     {"id":{"name":"s_stars_far","path":"sprites/s_stars_far/s_stars_far.yy",},"order":19,},
     {"id":{"name":"create_laser_effect","path":"scripts/create_laser_effect/create_laser_effect.yy",},"order":6,},
+    {"id":{"name":"o_explosion","path":"objects/o_explosion/o_explosion.yy",},"order":14,},
     {"id":{"name":"s_armor_strip5","path":"sprites/s_armor_strip5/s_armor_strip5.yy",},"order":21,},
     {"id":{"name":"s_button_strip2","path":"sprites/s_button_strip2/s_button_strip2.yy",},"order":23,},
     {"id":{"name":"s_enemy_laser","path":"sprites/s_enemy_laser/s_enemy_laser.yy",},"order":25,},

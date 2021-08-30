@@ -1,5 +1,5 @@
-/// @description follow player
-// this is the code for the enemies to follow the player 
+/// @description Insert description here
+// You can write your code in this editor
 var player_ship = instance_find(o_ship, 0);
 if (player_ship == noone) exit;
 
