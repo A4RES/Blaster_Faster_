@@ -17,6 +17,7 @@
     {"id":{"name":"s_button_strip2","path":"sprites/s_button_strip2/s_button_strip2.yy",},"order":23,},
     {"id":{"name":"s_enemy_laser","path":"sprites/s_enemy_laser/s_enemy_laser.yy",},"order":25,},
     {"id":{"name":"a_enemy_laser","path":"sounds/a_enemy_laser/a_enemy_laser.yy",},"order":1,},
+    {"id":{"name":"o_ship_parent","path":"objects/o_ship_parent/o_ship_parent.yy",},"order":15,},
     {"id":{"name":"a_laser","path":"sounds/a_laser/a_laser.yy",},"order":3,},
     {"id":{"name":"a_music","path":"sounds/a_music/a_music.yy",},"order":5,},
     {"id":{"name":"a_powerup","path":"sounds/a_powerup/a_powerup.yy",},"order":7,},
@@ -33,7 +34,7 @@
     {"id":{"name":"o_powerup","path":"objects/o_powerup/o_powerup.yy",},"order":9,},
     {"id":{"name":"o_explosion_particle","path":"objects/o_explosion_particle/o_explosion_particle.yy",},"order":11,},
     {"id":{"name":"o_lazer","path":"objects/o_lazer/o_lazer.yy",},"order":13,},
-    {"id":{"name":"room0","path":"rooms/room0/room0.yy",},"order":1,},
+    {"id":{"name":"room_space","path":"rooms/room_space/room_space.yy",},"order":1,},
   ],
   "Options": [
     {"name":"HTML5","path":"options/html5/options_html5.yy",},
@@ -55,7 +56,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"room0","path":"rooms/room0/room0.yy",},},
+    {"roomId":{"name":"room_space","path":"rooms/room_space/room_space.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

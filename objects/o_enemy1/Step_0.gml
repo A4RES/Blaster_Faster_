@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description follow the player 
 var player_ship = instance_find(o_ship, 0);
 if (player_ship == noone) exit;
 

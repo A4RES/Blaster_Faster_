@@ -18,8 +18,7 @@ image_index = thrust;
 if(thrust) {
 		motion_add(image_angle, acceleration);
 		if (speed > max_speed){
-			speed = max_speed; 
-		} 	
+			speed = max_speed; 	
 	instance_create_layer(_x,_y,"Effects", o_explosion_particle)
 } else {
 	friction = friction_ammount;
@@ -29,4 +28,5 @@ if(thrust) {
 var fire_lazer = mouse_check_button_pressed(mb_left);
 if(fire_lazer){
 	create_lazer();
+	}
 }
