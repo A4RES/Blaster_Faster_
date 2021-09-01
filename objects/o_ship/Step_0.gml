@@ -7,9 +7,6 @@ var offset = random_range(-4,4);
 var length = -2;
 var _x = x + lengthdir_x( length, image_angle) + offset;
 var _y = y + lengthdir_x(length, image_angle) + offset;
-
- 
- 
 // makes a thrust for the player ship
 var thrust = mouse_check_button(mb_right);
 // when right mouse button is clicked, the ship will look like its boosting
@@ -18,7 +15,8 @@ image_index = thrust;
 if(thrust) {
 		motion_add(image_angle, acceleration);
 		if (speed > max_speed){
-			speed = max_speed; 	
+			speed = max_speed; 
+		}	
 	instance_create_layer(_x,_y,"Effects", o_explosion_particle)
 } else {
 	friction = friction_ammount;
@@ -28,5 +26,4 @@ if(thrust) {
 var fire_lazer = mouse_check_button_pressed(mb_left);
 if(fire_lazer){
 	create_lazer();
-	}
 }

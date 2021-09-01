@@ -29,6 +29,7 @@
     {"id":{"name":"o_ship","path":"objects/o_ship/o_ship.yy",},"order":1,},
     {"id":{"name":"o_enemy2","path":"objects/o_enemy2/o_enemy2.yy",},"order":3,},
     {"id":{"name":"create_lazer","path":"scripts/create_lazer/create_lazer.yy",},"order":5,},
+    {"id":{"name":"bounce_off_object","path":"scripts/bounce_off_object/bounce_off_object.yy",},"order":7,},
     {"id":{"name":"o_enemy1","path":"objects/o_enemy1/o_enemy1.yy",},"order":5,},
     {"id":{"name":"o_enemy_lazer","path":"objects/o_enemy_lazer/o_enemy_lazer.yy",},"order":7,},
     {"id":{"name":"o_powerup","path":"objects/o_powerup/o_powerup.yy",},"order":9,},
