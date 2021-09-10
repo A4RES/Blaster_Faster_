@@ -18,11 +18,11 @@ if(thrust) {
 			speed = max_speed; 
 		}
 	// left off at 4:06 on video 
-	repeat (4) {	
+	repeat (2) {	
 	var offset = random_range(-4,4);
-	var length = -2;
+	var length = -14;
 	var _x = x + lengthdir_x( length, image_angle) + offset;
-	var _y = y + lengthdir_x(length, image_angle) + offset;	
+	var _y = y + lengthdir_y(length, image_angle) + offset;	
 	instance_create_layer(_x,_y,"Effects", o_explosion_particle)
 	}
 } else {

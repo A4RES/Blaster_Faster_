@@ -9,6 +9,8 @@ function bounce_off_screen() {
 		x = xprevious;
 		hspeed = -hspeed* momentum_loss; 
 	}
+	
+	
 
 	if (y < half_height or y > room_height - half_height) {
 		 y = yprevious; 
