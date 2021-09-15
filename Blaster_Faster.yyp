@@ -29,6 +29,7 @@
     {"id":{"name":"a_hit","path":"sounds/a_hit/a_hit.yy",},"order":13,},
     {"id":{"name":"bounce_off_screen","path":"scripts/bounce_off_screen/bounce_off_screen.yy",},"order":1,},
     {"id":{"name":"create_right_lazer","path":"scripts/create_right_lazer/create_right_lazer.yy",},"order":3,},
+    {"id":{"name":"o_ui","path":"objects/o_ui/o_ui.yy",},"order":10,},
     {"id":{"name":"o_ship","path":"objects/o_ship/o_ship.yy",},"order":0,},
     {"id":{"name":"o_enemy1","path":"objects/o_enemy1/o_enemy1.yy",},"order":1,},
     {"id":{"name":"create_lazer","path":"scripts/create_lazer/create_lazer.yy",},"order":5,},
