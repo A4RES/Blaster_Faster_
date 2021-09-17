@@ -23,6 +23,7 @@
     {"id":{"name":"o_explosion_chunk","path":"objects/o_explosion_chunk/o_explosion_chunk.yy",},"order":8,},
     {"id":{"name":"a_laser","path":"sounds/a_laser/a_laser.yy",},"order":3,},
     {"id":{"name":"a_music","path":"sounds/a_music/a_music.yy",},"order":5,},
+    {"id":{"name":"f_one","path":"fonts/f_one/f_one.yy",},"order":0,},
     {"id":{"name":"a_powerup","path":"sounds/a_powerup/a_powerup.yy",},"order":7,},
     {"id":{"name":"a_ship_hit","path":"sounds/a_ship_hit/a_ship_hit.yy",},"order":9,},
     {"id":{"name":"a_explode","path":"sounds/a_explode/a_explode.yy",},"order":11,},
