@@ -17,7 +17,7 @@ if(thrust) {
 		if (speed > max_speed){
 			speed = max_speed; 
 		}
-	// left off at 4:06 on video 
+	
 	repeat (2) {	
 	var offset = random_range(-4,4);
 	var length = -14;
