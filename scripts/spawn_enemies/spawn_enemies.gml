@@ -3,11 +3,12 @@
 var number = argument0;
 var enemy = argument1; 
 
-var center_x = room_width/2;
-var center_y = room_height/2;
+
 
 function spawn_enemies(){
 repeat(3){
+	var center_x = room_width/2;
+	var center_y = room_height/2;
 	var _direction = random(360);
 	var distance = random_range(room_width * 0.75, room_width);
 	var _x = center_x + lengthdir_x(distance, _direction);
