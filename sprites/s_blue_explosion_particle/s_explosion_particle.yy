@@ -60,7 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"s_explosion_particle","path":"sprites/s_explosion_particle/s_explosion_particle.yy",},
     "resourceVersion": "1.3",
-    "name": "s_explosion_particle",
+    "name": "",
     "tags": [],
     "resourceType": "GMSequence",
   },

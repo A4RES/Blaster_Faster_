@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a171c8cc-0230-45e5-a89a-7f05d2eb6adf","path":"sprites/s_explosion_particle/s_explosion_particle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a171c8cc-0230-45e5-a89a-7f05d2eb6adf","path":"sprites/s_explosion_particle/s_explosion_particle.yy",},"LayerId":{"name":"78b1213e-9758-4cfc-9495-2d1e4ebfd971","path":"sprites/s_explosion_particle/s_explosion_particle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_explosion_particle","path":"sprites/s_explosion_particle/s_explosion_particle.yy",},"resourceVersion":"1.0","name":"a171c8cc-0230-45e5-a89a-7f05d2eb6adf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a171c8cc-0230-45e5-a89a-7f05d2eb6adf","path":"sprites/s_red_explosion_particle/s_red_explosion_particle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a171c8cc-0230-45e5-a89a-7f05d2eb6adf","path":"sprites/s_red_explosion_particle/s_red_explosion_particle.yy",},"LayerId":{"name":"78b1213e-9758-4cfc-9495-2d1e4ebfd971","path":"sprites/s_red_explosion_particle/s_red_explosion_particle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_red_explosion_particle","path":"sprites/s_red_explosion_particle/s_red_explosion_particle.yy",},"resourceVersion":"1.0","name":"a171c8cc-0230-45e5-a89a-7f05d2eb6adf","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_explosion_particle","path":"sprites/s_explosion_particle/s_explosion_particle.yy",},
+    "spriteId": {"name":"s_red_explosion_particle","path":"sprites/s_red_explosion_particle/s_red_explosion_particle.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d9e3ed86-f10a-47d8-9c79-7e29b99d6e02","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a171c8cc-0230-45e5-a89a-7f05d2eb6adf","path":"sprites/s_explosion_particle/s_explosion_particle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0ae8f91e-170f-412f-aabc-24bfd5e74160","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a171c8cc-0230-45e5-a89a-7f05d2eb6adf","path":"sprites/s_red_explosion_particle/s_red_explosion_particle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_explosion_particle","path":"sprites/s_explosion_particle/s_explosion_particle.yy",},
+    "parent": {"name":"s_red_explosion_particle","path":"sprites/s_red_explosion_particle/s_red_explosion_particle.yy",},
     "resourceVersion": "1.3",
-    "name": "s_explosion_particle",
+    "name": "s_red_explosion_particle",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_explosion_particle",
+  "name": "s_red_explosion_particle",
   "tags": [],
   "resourceType": "GMSprite",
 }
