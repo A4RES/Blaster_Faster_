@@ -5,8 +5,6 @@ image_angle = mouse_directiton;
 direction = mouse_directiton;
 
 
-
-
 // makes a thrust for the player ship
 var thrust = mouse_check_button(mb_right);
 // when right mouse button is clicked, the ship will look like its boosting
@@ -23,7 +21,7 @@ if(thrust) {
 	var length = -14;
 	var _x = x + lengthdir_x( length, image_angle) + offset;
 	var _y = y + lengthdir_y(length, image_angle) + offset;	
-	instance_create_layer(_x,_y,"Effects", o_explosion_particle)
+	instance_create_layer(_x,_y,"Effects", o_red_explosion_particle)
 	}
 } else {
 	friction = friction_ammount;
@@ -31,7 +29,7 @@ if(thrust) {
 
 // when pressing left click, the player ship will shoot a laser 
 
-var fire_lazer = mouse_check_button_pressed(mb_left);
+var fire_lazer = mouse_check_button(mb_left);
 if(fire_lazer){
 	create_lazer();
 }

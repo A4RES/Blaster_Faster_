@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_laser",
+    "path": "sprites/s_laser/s_laser.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
