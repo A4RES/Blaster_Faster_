@@ -11,6 +11,7 @@
     {"id":{"name":"s_laser_powerup","path":"sprites/s_laser_powerup/s_laser_powerup.yy",},"order":5,},
     {"id":{"name":"s_score","path":"sprites/s_score/s_score.yy",},"order":7,},
     {"id":{"name":"exit_button","path":"scripts/exit_button/exit_button.yy",},"order":12,},
+    {"id":{"name":"o_screenshake","path":"objects/o_screenshake/o_screenshake.yy",},"order":18,},
     {"id":{"name":"o_explosion_chunk2","path":"objects/o_explosion_chunk2/o_explosion_chunk2.yy",},"order":16,},
     {"id":{"name":"s_enemy_explosion","path":"sprites/s_enemy_explosion/s_enemy_explosion.yy",},"order":13,},
     {"id":{"name":"s_ship","path":"sprites/s_ship/s_ship.yy",},"order":6,},
