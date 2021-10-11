@@ -3,7 +3,7 @@ function hit_enemy(){
 //var score_amount = argument0;	
 
 
-instance_destroy();
+//instance_destroy();
 other.armor -= 1;
 audio_play_sound(a_hit, 2, false);
 

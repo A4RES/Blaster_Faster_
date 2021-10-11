@@ -9,7 +9,7 @@ var _y = y + lengthdir_y(distance, image_angle + angle) + vspeed;
 
 var lazer = instance_create_layer(_x, _y, "Instances", o_lazer);
 lazer.direction = image_angle; 
-lazer.speed = 8; 
+lazer.speed = 10; 
 lazer.image_angle = image_angle;
 }	
 
