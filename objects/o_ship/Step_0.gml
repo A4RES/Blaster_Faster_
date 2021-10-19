@@ -1,4 +1,4 @@
- // @description controls, thrust and lasers  
+   // @description controls, thrust and lasers  
 // sets sprite to face mouse 
 var mouse_directiton = point_direction(x, y, mouse_x, mouse_y);
 image_angle = mouse_directiton;
@@ -29,7 +29,7 @@ if(thrust) {
 
 // when pressing left click, the player ship will shoot a laser 
 
-var fire_lazer = mouse_check_button_pressed(mb_left);
+var fire_lazer = mouse_check_button(mb_left);
 if(fire_lazer){
 	create_lazer();
 }

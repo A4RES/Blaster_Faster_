@@ -1,2 +1,2 @@
-/// @description variables
+ /// @description variables
 image_speed = 0;                     
